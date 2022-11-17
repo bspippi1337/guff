@@ -1,6 +1,6 @@
 @echo on
-powercfg.exe setdcvalueindex SCHEME_CURRENT SUB_ENERGYSAVER ESBATTTHRESHOLD 100
 powercfg.exe setactive scheme_current 
+powercfg.exe setdcvalueindex SCHEME_CURRENT SUB_ENERGYSAVER ESBATTTHRESHOLD 100
 powercfg.exe -x -monitor-timeout-ac 0
 powercfg.exe -x -monitor-timeout-dc 0
 powercfg.exe -x -disk-timeout-ac 0
